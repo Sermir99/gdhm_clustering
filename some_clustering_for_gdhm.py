@@ -271,7 +271,8 @@ def clustering(df, id_, c_type='k-means'):
 	'k-means',
 	'agglomerative',
 	'spectral',
-	'c-means'
+	'c-means',
+	'gmm'
 	"""	
 
 	scaler =  MinMaxScaler()
